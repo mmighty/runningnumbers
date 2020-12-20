@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on MaxRunsNumbers</title>
+    <link>https://maxrunsnumbers.com/blog/</link>
+    <description>Recent content in Blog on MaxRunsNumbers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 19 Dec 2020 16:38:42 -0700</lastBuildDate>
+    <atom:link href="https://maxrunsnumbers.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sample Plot</title>
+      <link>https://maxrunsnumbers.com/blog/20201219_sample_post2/</link>
+      <pubDate>Sat, 19 Dec 2020 16:38:42 -0700</pubDate>
+      <guid>https://maxrunsnumbers.com/blog/20201219_sample_post2/</guid>
+      <description>&lt;p&gt;test of plotting&lt;/p&gt;
+
+
+&lt;div id=&#34;/plotly/scatter3d.json&#34; class=&#34;plotly&#34; style=&#34;height:400px&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+Plotly.d3.json(&#34;/plotly/scatter3d.json&#34;, function(err, fig) {
+    Plotly.plot(&#39;\/plotly\/scatter3d.json&#39;, fig.data, fig.layout, {responsive: true});
+});
+&lt;/script&gt;
+
+&lt;p&gt;end of test&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>sample_post1</title>
+      <link>https://maxrunsnumbers.com/blog/20201219_sample_post1/</link>
+      <pubDate>Sat, 19 Dec 2020 16:33:45 -0700</pubDate>
+      <guid>https://maxrunsnumbers.com/blog/20201219_sample_post1/</guid>
+      <description>&lt;p&gt;this is stuff in sample post 1. I will make a test plot in the next post.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

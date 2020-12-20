@@ -1,0 +1,32 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Blog on MaxRunsNumbers",
+    "description": "Recent content in Blog on MaxRunsNumbers",
+    "home_page_url": "https://maxrunsnumbers.com/",
+    "feed_url": "https://maxrunsnumbers.com/blog/index.json",
+    "language": "en-US",
+    "authors": [
+        {
+            "name": "Max",
+            "url": "https://maxrunsnumbers.com/about"
+        }
+    ],
+    "items": [
+        {
+            "title": "Sample Plot",
+            "date_published": "2020-12-19T16:38:42-07:00",
+            "date_modified": "2020-12-19T16:38:42-07:00",
+            "id": "https://maxrunsnumbers.com/blog/20201219_sample_post2/",
+            "url": "https://maxrunsnumbers.com/blog/20201219_sample_post2/",
+            "content_html": "\u003cp\u003etest of plotting\u003c/p\u003e\n\n\n\u003cdiv id=\"/plotly/scatter3d.json\" class=\"plotly\" style=\"height:400px\"\u003e\u003c/div\u003e\n\u003cscript\u003e\nPlotly.d3.json(\"/plotly/scatter3d.json\", function(err, fig) {\n    Plotly.plot('\\/plotly\\/scatter3d.json', fig.data, fig.layout, {responsive: true});\n});\n\u003c/script\u003e\n\n\u003cp\u003eend of test\u003c/p\u003e\n"
+        },
+        {
+            "title": "sample_post1",
+            "date_published": "2020-12-19T16:33:45-07:00",
+            "date_modified": "2020-12-19T16:33:45-07:00",
+            "id": "https://maxrunsnumbers.com/blog/20201219_sample_post1/",
+            "url": "https://maxrunsnumbers.com/blog/20201219_sample_post1/",
+            "content_html": "\u003cp\u003ethis is stuff in sample post 1. I will make a test plot in the next post.\u003c/p\u003e\n"
+        }
+        ]
+}

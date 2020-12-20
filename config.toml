@@ -1,0 +1,71 @@
+title = "MaxRunsNumbers"
+baseURL = "https://maxrunsnumbers.com/"
+theme = "zen"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+pluralizelisttitles = false
+removePathAccents = true
+paginate = 10
+paginatePath = "page"
+rssLimit = 20
+enableInlineShortcodes = true
+
+[author]
+name = "Max"
+url = "https://maxrunsnumbers.com/about"
+#avatar = "path/to/some-image.jpg"
+
+[outputFormats.SearchIndex]
+mediaType = "application/json"
+baseName = "searchindex"
+isPlainText = true
+notAlternative = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON", "SearchIndex" ]
+section = [ "HTML", "RSS", "JSON" ]
+
+[params]
+#contact = "maxrunsnumbers@gmail.com"
+contact = "isanybody@gmail.com"
+copyright = "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
+description = "Running Miles and Running Numbers"
+dateformat = "January 2, 2006"
+realfavicongenerator = true
+feedlinks = true
+footer = "Powered by fractals and the sprinkles on cupcakes."
+#icon = "apple-touch-icon.png"
+#image = "apple-touch-icon.png"
+imageMaxWidth = 512
+mobileMenu = true
+poweredby = false
+sidebar = false
+submitted = true
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+  
+# Menu links
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url  = "/"
+[[menu.main]]
+    name = "Blog"
+    weight = 2
+    url = "/blog/"
+[[menu.main]]
+    name = "Data"
+    weight = 3
+    url = "/data/"
+[[menu.main]]
+    name = "About"
+    weight = 4
+    url = "/about/"
+[[menu.main]]
+    name = "Search"
+    weight = 5
+    url = "/search/"
